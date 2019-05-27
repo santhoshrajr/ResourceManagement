@@ -13,7 +13,7 @@ namespace SR.ResourceManagement.Domain
         public string SurName { get; set; }
         public string PhoneNumber { get; set; }
 
-        public IList<PersonType> Type { get; set; }
+        public IList<PersonPersonType> PersonPersonType { get; set; }
 
         #region Foreign Keys
         public int ScheduleId  { get; set; }

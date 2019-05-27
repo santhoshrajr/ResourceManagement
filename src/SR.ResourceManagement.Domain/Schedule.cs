@@ -9,6 +9,6 @@ namespace SR.ResourceManagement.Domain
         public IList<ScheduleItem> ScheduleItems { get; set; }
 
         public IList<RecurringSchedule> RecurringSchedules { get; set; }
-        public IList<(DateTime start, DateTime end)> ScheduleExceptions { get; set; }
+        public IList<ScheduleException> ScheduleExceptions { get; set; }
     }
 }
